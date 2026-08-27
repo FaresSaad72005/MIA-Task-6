@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Datasets
+task6_1/data/
+task6_2/data/
+
+# Large trained model files
+*.pt
+*.pth
+*.bin
+*.ckpt
+
+# FastText generated/vector files
+*.model.wv.vectors_ngrams.npy
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
